@@ -10,6 +10,14 @@ reported before the RLA are taken from the "Official" totals reported on
 The output of the script can be seen in the [`output.csv`](output.csv) file
 included in this repo.
 
+The reason this script is needed is that Georgia's election results page
+doesn't seem to include "ballots cast" in the downloadable CSV files, etc.
+It only includes the candidate totals.  The ballots cast are, however,
+available in Scytl's JSON endpoints. (Note that categories corresponding
+to the other RLA columns, like Invalid Write-In, Valid Write-in,
+Blank/Undervote, and Overvote, don't seem to be available in the JSON
+endpoints.)
+
 **Read the comments in the code for more details, explanation, and
 some disclaimers!**
 

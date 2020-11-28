@@ -2,10 +2,12 @@
 
 ## Ballots Cast Comparison Tool
 
-This repo contains a Python script to download and compare the totals for "ballots cast" that were reported before the risk-limiting audit (RLA)
-with the corresponding totals reported in the RLA report.  The totals
-reported before the RLA are taken from the "Official" totals reported on
-[Georgia's state election results page](https://results.enr.clarityelections.com/GA/105369/web.264614/#/summary).
+This repo contains a Python script to download and compare the totals for "ballots cast" that were reported before [Georgia's risk-limiting audit
+(RLA)](https://sos.ga.gov/index.php/elections/historic_first_statewide_audit_of_paper_ballots_upholds_result_of_presidential_race) of the Presidential
+contest, with the corresponding totals reported in the RLA report.
+The totals reported before the RLA are taken from the "Official" totals
+reported on [Georgia's state election results
+page](https://results.enr.clarityelections.com/GA/105369/web.264614/#/summary).
 
 The output of the script can be seen in the [`output.csv`](output.csv) file
 included in this repo.
@@ -15,7 +17,7 @@ doesn't seem to include "ballots cast" in the downloadable CSV files, etc.
 It only includes the candidate totals.  The ballots cast are, however,
 available in Scytl's JSON endpoints. (Note that categories corresponding
 to the other RLA columns, like Invalid Write-In, Valid Write-in,
-Blank/Undervote, and Overvote, don't seem to be available in the JSON
+Blank/Undervote, and Overvote, don't seem to be available even in the JSON
 endpoints.)
 
 **Read the comments in the code for more details, explanation, and

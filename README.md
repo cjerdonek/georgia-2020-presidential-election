@@ -1,11 +1,17 @@
-# Ballots Cast Comparison
+# Georgia - November 3, 2020 General Election
 
-## Georgia - November 3, 2020 General Election
+## Ballots Cast Comparison Tool
 
-This repo contains code to download and compare the ballots cast totals
-reported before the RLA in Georgia (i.e. the "Official" results posted
-on [Georgia's election results website](https://results.enr.clarityelections.com/GA/105369/web.264614/#/summary)) with after.
+This repo contains a Python script to download and compare the totals for "ballots cast" that were reported before the risk-limiting audit (RLA)
+with the corresponding totals reported in the RLA report.  The totals
+reported before the RLA are taken from the "Official" totals reported on
+[Georgia's state election results page](https://results.enr.clarityelections.com/GA/105369/web.264614/#/summary).
 
+The output of the script can be seen in the [`output.csv`](output.csv) file
+included in this repo.
+
+**Read the comments in the code for more details, explanation, and
+some disclaimers!**
 
 ## To Run
 
@@ -19,6 +25,3 @@ county results for the first time.
 
 The above writes the file `output.csv` to the repo root.  For convenience,
 we have also stored this file in the repo for you.
-
-**Read the comments in the code for more details, explanation, and
-some disclaimers!**

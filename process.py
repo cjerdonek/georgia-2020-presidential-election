@@ -34,6 +34,8 @@ VOTE_TOTAL_KEYS = [
     'Over',
 ]
 
+RLA_KEYS = VOTE_TOTAL_KEYS + ['InvW', 'ValW']
+
 BC_DELTA_INDEX = -3
 
 
@@ -201,10 +203,9 @@ def read_rla_totals():
     normalized_to_name = get_county_names()
 
     totals = {}
-    rla_keys = VOTE_TOTAL_KEYS + ['TBJ', 'InvW', 'ValW']
 
     for name in normalized_to_name.values():
-        totals[name] = make_zero_vote_totals(rla_keys)
+        totals[name] = make_zero_vote_totals(RLA_KEYS)
 
     # This CSV was downloaded from here:
     # https://sos.ga.gov/index.php/elections/historic_first_statewide_audit_of_paper_ballots_upholds_result_of_presidential_race
@@ -404,13 +405,13 @@ def write_output(official_totals, rla_totals):
         official_county_totals = official_totals[name]
 
         pairs = [
-            ('Official', official_county_totals),
-            ('RLA', rla_county_totals),
+            ('Official', official_county_totals, VOTE_TOTAL_KEYS),
+            ('RLA', rla_county_totals, RLA_KEYS),
         ]
 
         row = [name]
-        for prefix, totals in pairs:
-            for key in VOTE_TOTAL_KEYS:
+        for prefix, totals, keys in pairs:
+            for key in keys:
                 row.append(totals[key])
 
         for i in range(1, key_count + 1):
@@ -427,8 +428,13 @@ def write_output(official_totals, rla_totals):
     rows = sorted(rows, key=sort_key)
 
     headers = ['County']
-    for prefix in ('Official', 'RLA', 'Delta'):
-        for key in VOTE_TOTAL_KEYS:
+    pairs = [
+        ('Official', VOTE_TOTAL_KEYS),
+        ('RLA', RLA_KEYS),
+        ('Delta', VOTE_TOTAL_KEYS),
+    ]
+    for prefix, keys in pairs:
+        for key in keys:
             header = f'{prefix}-{key}'
             headers.append(header)
 

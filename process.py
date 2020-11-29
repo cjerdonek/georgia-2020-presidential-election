@@ -25,7 +25,17 @@ import requests
 CACHE_DIR = Path('cache')
 DOWNLOADS_DIR = Path('downloads')
 
-VOTE_TOTAL_KEYS = ['BC', 'Under', 'Over']
+VOTE_TOTAL_KEYS = [
+    # The total of Trump, Biden, and Jorgenson vote totals.
+    'TBJ',
+    # "Ballots cast," or all types of votes.
+    'BC',
+    'Under',
+    'Over',
+]
+
+BC_DELTA_INDEX = -3
+
 
 _log = logging.getLogger()
 
@@ -47,8 +57,8 @@ def write_json(path, data):
         json.dump(data, f, sort_keys=True, indent='    ')
 
 
-def make_zero_vote_totals():
-    return {key: 0 for key in VOTE_TOTAL_KEYS}
+def make_zero_vote_totals(keys):
+    return {key: 0 for key in keys}
 
 
 def unzip_file(zip_path, file_name):
@@ -191,8 +201,10 @@ def read_rla_totals():
     normalized_to_name = get_county_names()
 
     totals = {}
+    rla_keys = VOTE_TOTAL_KEYS + ['TBJ', 'InvW', 'ValW']
+
     for name in normalized_to_name.values():
-        totals[name] = make_zero_vote_totals()
+        totals[name] = make_zero_vote_totals(rla_keys)
 
     # This CSV was downloaded from here:
     # https://sos.ga.gov/index.php/elections/historic_first_statewide_audit_of_paper_ballots_upholds_result_of_presidential_race
@@ -214,9 +226,12 @@ def read_rla_totals():
 
             row_totals = [int(part) for part in row[3:]]
 
+            county_totals['TBJ'] += sum(row_totals[:3])
             county_totals['BC'] += sum(row_totals)
-            county_totals['Under'] += row_totals[-2]
-            county_totals['Over'] += row_totals[-1]
+            county_totals['InvW'] += row_totals[3]
+            county_totals['ValW'] += row_totals[4]
+            county_totals['Under'] += row_totals[5]
+            county_totals['Over'] += row_totals[6]
 
     write_json(cache_path, data=totals)
 
@@ -276,6 +291,13 @@ def read_official_json_totals():
     return totals
 
 
+def get_ballots_cast(root):
+    vt_element = root.find('VoterTurnout')
+    total = vt_element.attrib['ballotsCast']
+
+    return int(total)
+
+
 def get_votes_by_vote_type(element):
     totals = {}
 
@@ -294,11 +316,17 @@ def get_votes_by_vote_type(element):
     return totals
 
 
-def get_ballots_cast(root):
-    vt_element = root.find('VoterTurnout')
-    total = vt_element.attrib['ballotsCast']
+def get_candidate_total(contest):
+    total = 0
+    for choice_element in contest.findall('Choice'):
+        attrib = choice_element.attrib
+        name = attrib['text']
+        assert 'Trump' in name or 'Biden' in name or 'Jorgensen' in name
 
-    return int(total)
+        choice_total = attrib['totalVotes']
+        total += int(choice_total)
+
+    return total
 
 
 def read_detailxml_file(path):
@@ -317,6 +345,8 @@ def read_detailxml_file(path):
 
     new_totals = get_votes_by_vote_type(contest)
     totals.update(new_totals)
+
+    totals['TBJ'] = get_candidate_total(contest)
 
     return totals
 
@@ -342,7 +372,9 @@ def read_official_totals():
 
 
 def compute_all_counties(totals):
-    all_totals = make_zero_vote_totals()
+    name = next(iter(totals))
+    keys = totals[name]
+    all_totals = make_zero_vote_totals(keys)
 
     for county_totals in totals.values():
         for key, total in county_totals.items():
@@ -387,13 +419,10 @@ def write_output(official_totals, rla_totals):
 
         rows.append(row)
 
-    # Sort by the magnitude of the difference, in descending order,
-    # then next alphabetically.
-    bc_delta_index = -1 * key_count
-
     def sort_key(row):
-        # 1) Make the ALL row first.
-        return (row[0] != 'ALL', -1 * abs(row[bc_delta_index]), name)
+        # Make the ALL row first, then sort by the magnitude of the
+        # ballots cast delta, then alphabetically by name.
+        return (row[0] != 'ALL', -1 * abs(row[BC_DELTA_INDEX]), name)
 
     rows = sorted(rows, key=sort_key)
 

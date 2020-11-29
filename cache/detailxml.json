@@ -1,956 +1,956 @@
 {
     "Appling": {
         "BC": 8367,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8341,
-        "Under": 26
+        "Und": 26
     },
     "Atkinson": {
         "BC": 3172,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3155,
-        "Under": 15
+        "Und": 15
     },
     "Bacon": {
         "BC": 4680,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4668,
-        "Under": 12
+        "Und": 12
     },
     "Baker": {
         "BC": 1559,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1555,
-        "Under": 4
+        "Und": 4
     },
     "Baldwin": {
         "BC": 18353,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 18251,
-        "Under": 90
+        "Und": 90
     },
     "Banks": {
         "BC": 8830,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8801,
-        "Under": 17
+        "Und": 17
     },
     "Barrow": {
         "BC": 38071,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 37921,
-        "Under": 54
+        "Und": 54
     },
     "Bartow": {
         "BC": 50678,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 50467,
-        "Under": 209
+        "Und": 209
     },
     "Ben Hill": {
         "BC": 6591,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 6560,
-        "Under": 19
+        "Und": 19
     },
     "Berrien": {
         "BC": 7766,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7743,
-        "Under": 22
+        "Und": 22
     },
     "Bibb": {
         "BC": 71169,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 70802,
-        "Under": 317
+        "Und": 317
     },
     "Bleckley": {
         "BC": 5731,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 5706,
-        "Under": 23
+        "Und": 23
     },
     "Brantley": {
         "BC": 7766,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7746,
-        "Under": 20
+        "Und": 20
     },
     "Brooks": {
         "BC": 7128,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 7100,
-        "Under": 17
+        "Und": 17
     },
     "Bryan": {
         "BC": 21474,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 21340,
-        "Under": 120
+        "Und": 120
     },
     "Bulloch": {
         "BC": 30229,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 30084,
-        "Under": 58
+        "Und": 58
     },
     "Burke": {
         "BC": 10758,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 10684,
-        "Under": 73
+        "Und": 73
     },
     "Butts": {
         "BC": 11827,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11771,
-        "Under": 49
+        "Und": 49
     },
     "Calhoun": {
         "BC": 2204,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2194,
-        "Under": 8
+        "Und": 8
     },
     "Camden": {
         "BC": 23784,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 23688,
-        "Under": 84
+        "Und": 84
     },
     "Candler": {
         "BC": 4444,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4431,
-        "Under": 9
+        "Und": 9
     },
     "Carroll": {
         "BC": 54689,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 54474,
-        "Under": 180
+        "Und": 180
     },
     "Catoosa": {
         "BC": 32756,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 32593,
-        "Under": 131
+        "Und": 131
     },
     "Charlton": {
         "BC": 4576,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4566,
-        "Under": 10
+        "Und": 10
     },
     "Chatham": {
         "BC": 134210,
-        "Over": 18,
+        "Ovr": 18,
         "TBJ": 133420,
-        "Under": 696
+        "Und": 696
     },
     "Chattahoochee": {
         "BC": 1594,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 1582,
-        "Under": 3
+        "Und": 3
     },
     "Chattooga": {
         "BC": 10104,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 10050,
-        "Under": 25
+        "Und": 25
     },
     "Cherokee": {
         "BC": 145539,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 144830,
-        "Under": 401
+        "Und": 401
     },
     "Clarke": {
         "BC": 51773,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 51333,
-        "Under": 365
+        "Und": 365
     },
     "Clay": {
         "BC": 1444,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1434,
-        "Under": 6
+        "Und": 6
     },
     "Clayton": {
         "BC": 112985,
-        "Over": 10,
+        "Ovr": 10,
         "TBJ": 112344,
-        "Under": 558
+        "Und": 558
     },
     "Clinch": {
         "BC": 2876,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2864,
-        "Under": 12
+        "Und": 12
     },
     "Cobb": {
         "BC": 396551,
-        "Over": 12,
+        "Ovr": 12,
         "TBJ": 393746,
-        "Under": 999
+        "Und": 999
     },
     "Coffee": {
         "BC": 15277,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 15214,
-        "Under": 40
+        "Und": 40
     },
     "Colquitt": {
         "BC": 16141,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 16083,
-        "Under": 55
+        "Und": 55
     },
     "Columbia": {
         "BC": 80973,
-        "Over": 10,
+        "Ovr": 10,
         "TBJ": 80579,
-        "Under": 339
+        "Und": 339
     },
     "Cook": {
         "BC": 7058,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7035,
-        "Under": 21
+        "Und": 21
     },
     "Coweta": {
         "BC": 77182,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 76799,
-        "Under": 271
+        "Und": 271
     },
     "Crawford": {
         "BC": 6128,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 6102,
-        "Under": 26
+        "Und": 26
     },
     "Crisp": {
         "BC": 8079,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8039,
-        "Under": 27
+        "Und": 27
     },
     "Dade": {
         "BC": 7479,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7434,
-        "Under": 32
+        "Und": 32
     },
     "Dawson": {
         "BC": 16146,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 16081,
-        "Under": 41
+        "Und": 41
     },
     "DeKalb": {
         "BC": 373439,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 370804,
-        "Under": 1302
+        "Und": 1302
     },
     "Decatur": {
         "BC": 11669,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11627,
-        "Under": 40
+        "Und": 40
     },
     "Dodge": {
         "BC": 8098,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 8070,
-        "Under": 17
+        "Und": 17
     },
     "Dooly": {
         "BC": 4125,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4105,
-        "Under": 17
+        "Und": 17
     },
     "Dougherty": {
         "BC": 35503,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 35311,
-        "Under": 185
+        "Und": 185
     },
     "Douglas": {
         "BC": 69447,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 69097,
-        "Under": 315
+        "Und": 315
     },
     "Early": {
         "BC": 5217,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 5187,
-        "Under": 29
+        "Und": 29
     },
     "Echols": {
         "BC": 1449,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1441,
-        "Under": 7
+        "Und": 7
     },
     "Effingham": {
         "BC": 31677,
-        "Over": 5,
+        "Ovr": 5,
         "TBJ": 31570,
-        "Under": 83
+        "Und": 83
     },
     "Elbert": {
         "BC": 9218,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9171,
-        "Under": 42
+        "Und": 42
     },
     "Emanuel": {
         "BC": 9555,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9501,
-        "Under": 30
+        "Und": 30
     },
     "Evans": {
         "BC": 4261,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 4247,
-        "Under": 8
+        "Und": 8
     },
     "Fannin": {
         "BC": 14902,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 14850,
-        "Under": 33
+        "Und": 33
     },
     "Fayette": {
         "BC": 72421,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 71993,
-        "Under": 189
+        "Und": 189
     },
     "Floyd": {
         "BC": 41883,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 41648,
-        "Under": 211
+        "Und": 211
     },
     "Forsyth": {
         "BC": 129945,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 129305,
-        "Under": 258
+        "Und": 258
     },
     "Franklin": {
         "BC": 10815,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 10765,
-        "Under": 29
+        "Und": 29
     },
     "Fulton": {
         "BC": 528777,
-        "Over": 47,
+        "Ovr": 47,
         "TBJ": 524659,
-        "Under": 1970
+        "Und": 1970
     },
     "Gilmer": {
         "BC": 16576,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 16525,
-        "Under": 49
+        "Und": 49
     },
     "Glascock": {
         "BC": 1571,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1566,
-        "Under": 5
+        "Und": 5
     },
     "Glynn": {
         "BC": 42202,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 41984,
-        "Under": 170
+        "Und": 170
     },
     "Gordon": {
         "BC": 24122,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 24033,
-        "Under": 35
+        "Und": 35
     },
     "Grady": {
         "BC": 10741,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 10707,
-        "Under": 31
+        "Und": 31
     },
     "Greene": {
         "BC": 11317,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11247,
-        "Under": 67
+        "Und": 67
     },
     "Gwinnett": {
         "BC": 416458,
-        "Over": 25,
+        "Ovr": 25,
         "TBJ": 413865,
-        "Under": 2174
+        "Und": 2174
     },
     "Habersham": {
         "BC": 20516,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 20432,
-        "Under": 72
+        "Und": 72
     },
     "Hall": {
         "BC": 91023,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 90523,
-        "Under": 430
+        "Und": 430
     },
     "Hancock": {
         "BC": 4183,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 4165,
-        "Under": 16
+        "Und": 16
     },
     "Haralson": {
         "BC": 14296,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 14248,
-        "Under": 41
+        "Und": 41
     },
     "Harris": {
         "BC": 20110,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 19991,
-        "Under": 108
+        "Und": 108
     },
     "Hart": {
         "BC": 12788,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 12727,
-        "Under": 54
+        "Und": 54
     },
     "Heard": {
         "BC": 5411,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 5391,
-        "Under": 11
+        "Und": 11
     },
     "Henry": {
         "BC": 123377,
-        "Over": 18,
+        "Ovr": 18,
         "TBJ": 122742,
-        "Under": 311
+        "Und": 311
     },
     "Houston": {
         "BC": 75166,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 74823,
-        "Under": 309
+        "Und": 309
     },
     "Irwin": {
         "BC": 4189,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4168,
-        "Under": 18
+        "Und": 18
     },
     "Jackson": {
         "BC": 37830,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 37670,
-        "Under": 61
+        "Und": 61
     },
     "Jasper": {
         "BC": 7669,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7644,
-        "Under": 13
+        "Und": 13
     },
     "Jeff Davis": {
         "BC": 5788,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 5771,
-        "Under": 9
+        "Und": 9
     },
     "Jefferson": {
         "BC": 7682,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7642,
-        "Under": 30
+        "Und": 30
     },
     "Jenkins": {
         "BC": 3461,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3455,
-        "Under": 6
+        "Und": 6
     },
     "Johnson": {
         "BC": 4114,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4100,
-        "Under": 11
+        "Und": 11
     },
     "Jones": {
         "BC": 15031,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 14966,
-        "Under": 54
+        "Und": 54
     },
     "Lamar": {
         "BC": 9077,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9039,
-        "Under": 20
+        "Und": 20
     },
     "Lanier": {
         "BC": 3591,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3576,
-        "Under": 15
+        "Und": 15
     },
     "Laurens": {
         "BC": 22822,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 22729,
-        "Under": 92
+        "Und": 92
     },
     "Lee": {
         "BC": 16769,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 16714,
-        "Under": 52
+        "Und": 52
     },
     "Liberty": {
         "BC": 21478,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 21389,
-        "Under": 89
+        "Und": 89
     },
     "Lincoln": {
         "BC": 4667,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4650,
-        "Under": 12
+        "Und": 12
     },
     "Long": {
         "BC": 5674,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 5656,
-        "Under": 15
+        "Und": 15
     },
     "Lowndes": {
         "BC": 46543,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 46355,
-        "Under": 168
+        "Und": 168
     },
     "Lumpkin": {
         "BC": 15605,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 15531,
-        "Under": 53
+        "Und": 53
     },
     "Macon": {
         "BC": 4680,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4662,
-        "Under": 13
+        "Und": 13
     },
     "Madison": {
         "BC": 14993,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 14937,
-        "Under": 48
+        "Und": 48
     },
     "Marion": {
         "BC": 3646,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3624,
-        "Under": 21
+        "Und": 21
     },
     "McDuffie": {
         "BC": 10509,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 10455,
-        "Under": 53
+        "Und": 53
     },
     "McIntosh": {
         "BC": 6725,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 6696,
-        "Under": 27
+        "Und": 27
     },
     "Meriwether": {
         "BC": 10924,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 10877,
-        "Under": 27
+        "Und": 27
     },
     "Miller": {
         "BC": 2853,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2835,
-        "Under": 14
+        "Und": 14
     },
     "Mitchell": {
         "BC": 8991,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8963,
-        "Under": 27
+        "Und": 27
     },
     "Monroe": {
         "BC": 15655,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 15592,
-        "Under": 61
+        "Und": 61
     },
     "Montgomery": {
         "BC": 3980,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3966,
-        "Under": 8
+        "Und": 8
     },
     "Morgan": {
         "BC": 11765,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11707,
-        "Under": 50
+        "Und": 50
     },
     "Murray": {
         "BC": 15439,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 15389,
-        "Under": 23
+        "Und": 23
     },
     "Muscogee": {
         "BC": 80977,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 80543,
-        "Under": 409
+        "Und": 409
     },
     "Newton": {
         "BC": 54507,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 54239,
-        "Under": 239
+        "Und": 239
     },
     "Oconee": {
         "BC": 25399,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 25168,
-        "Under": 132
+        "Und": 132
     },
     "Oglethorpe": {
         "BC": 8168,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8131,
-        "Under": 32
+        "Und": 32
     },
     "Paulding": {
         "BC": 85713,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 85385,
-        "Under": 245
+        "Und": 245
     },
     "Peach": {
         "BC": 12585,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 12545,
-        "Under": 39
+        "Und": 39
     },
     "Pickens": {
         "BC": 17175,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 17116,
-        "Under": 32
+        "Und": 32
     },
     "Pierce": {
         "BC": 9071,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9048,
-        "Under": 22
+        "Und": 22
     },
     "Pike": {
         "BC": 10753,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 10720,
-        "Under": 32
+        "Und": 32
     },
     "Polk": {
         "BC": 17448,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 17399,
-        "Under": 47
+        "Und": 47
     },
     "Pulaski": {
         "BC": 4081,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 4059,
-        "Under": 11
+        "Und": 11
     },
     "Putnam": {
         "BC": 11917,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11855,
-        "Under": 59
+        "Und": 59
     },
     "Quitman": {
         "BC": 1116,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1106,
-        "Under": 10
+        "Und": 10
     },
     "Rabun": {
         "BC": 9632,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9568,
-        "Under": 58
+        "Und": 58
     },
     "Randolph": {
         "BC": 3087,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3074,
-        "Under": 13
+        "Und": 13
     },
     "Richmond": {
         "BC": 87530,
-        "Over": 17,
+        "Ovr": 17,
         "TBJ": 87016,
-        "Under": 429
+        "Und": 429
     },
     "Rockdale": {
         "BC": 44942,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 44686,
-        "Under": 234
+        "Und": 234
     },
     "Schley": {
         "BC": 2284,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2275,
-        "Under": 9
+        "Und": 9
     },
     "Screven": {
         "BC": 6661,
-        "Over": 4,
+        "Ovr": 4,
         "TBJ": 6628,
-        "Under": 15
+        "Und": 15
     },
     "Seminole": {
         "BC": 3901,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 3884,
-        "Under": 16
+        "Und": 16
     },
     "Spalding": {
         "BC": 30250,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 30116,
-        "Under": 87
+        "Und": 87
     },
     "Stephens": {
         "BC": 11949,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 11885,
-        "Under": 28
+        "Und": 28
     },
     "Stewart": {
         "BC": 2006,
-        "Over": 2,
+        "Ovr": 2,
         "TBJ": 1990,
-        "Under": 14
+        "Und": 14
     },
     "Sumter": {
         "BC": 12201,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 12150,
-        "Under": 49
+        "Und": 49
     },
     "Talbot": {
         "BC": 3544,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3522,
-        "Under": 20
+        "Und": 20
     },
     "Taliaferro": {
         "BC": 934,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 928,
-        "Under": 3
+        "Und": 3
     },
     "Tattnall": {
         "BC": 8211,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 8183,
-        "Under": 17
+        "Und": 17
     },
     "Taylor": {
         "BC": 3859,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3839,
-        "Under": 12
+        "Und": 12
     },
     "Telfair": {
         "BC": 4354,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4333,
-        "Under": 20
+        "Und": 20
     },
     "Terrell": {
         "BC": 4437,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4416,
-        "Under": 21
+        "Und": 21
     },
     "Thomas": {
         "BC": 21946,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 21853,
-        "Under": 88
+        "Und": 88
     },
     "Tift": {
         "BC": 16351,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 16283,
-        "Under": 67
+        "Und": 67
     },
     "Toombs": {
         "BC": 10963,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 10914,
-        "Under": 30
+        "Und": 30
     },
     "Towns": {
         "BC": 8016,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 7979,
-        "Under": 37
+        "Und": 37
     },
     "Treutlen": {
         "BC": 3095,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3077,
-        "Under": 14
+        "Und": 14
     },
     "Troup": {
         "BC": 30184,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 30049,
-        "Under": 125
+        "Und": 125
     },
     "Turner": {
         "BC": 3809,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3792,
-        "Under": 17
+        "Und": 17
     },
     "Twiggs": {
         "BC": 4458,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4444,
-        "Under": 14
+        "Und": 14
     },
     "Union": {
         "BC": 15645,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 15560,
-        "Under": 53
+        "Und": 53
     },
     "Upson": {
         "BC": 12950,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 12905,
-        "Under": 43
+        "Und": 43
     },
     "Walker": {
         "BC": 29514,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 29354,
-        "Under": 140
+        "Und": 140
     },
     "Walton": {
         "BC": 51294,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 51095,
-        "Under": 191
+        "Und": 191
     },
     "Ware": {
         "BC": 14253,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 14192,
-        "Under": 61
+        "Und": 61
     },
     "Warren": {
         "BC": 2663,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2651,
-        "Under": 12
+        "Und": 12
     },
     "Washington": {
         "BC": 9506,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9459,
-        "Under": 35
+        "Und": 35
     },
     "Wayne": {
         "BC": 12810,
-        "Over": 3,
+        "Ovr": 3,
         "TBJ": 12778,
-        "Under": 17
+        "Und": 17
     },
     "Webster": {
         "BC": 1400,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 1390,
-        "Under": 10
+        "Und": 10
     },
     "Wheeler": {
         "BC": 2298,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 2285,
-        "Under": 11
+        "Und": 11
     },
     "White": {
         "BC": 14897,
-        "Over": 1,
+        "Ovr": 1,
         "TBJ": 14816,
-        "Under": 65
+        "Und": 65
     },
     "Whitfield": {
         "BC": 36936,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 36746,
-        "Under": 83
+        "Und": 83
     },
     "Wilcox": {
         "BC": 3295,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 3281,
-        "Under": 10
+        "Und": 10
     },
     "Wilkes": {
         "BC": 5053,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 5029,
-        "Under": 13
+        "Und": 13
     },
     "Wilkinson": {
         "BC": 4792,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 4770,
-        "Under": 14
+        "Und": 14
     },
     "Worth": {
         "BC": 9315,
-        "Over": 0,
+        "Ovr": 0,
         "TBJ": 9285,
-        "Under": 30
+        "Und": 30
     }
 }

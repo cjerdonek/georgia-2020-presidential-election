@@ -30,8 +30,8 @@ VOTE_TOTAL_KEYS = [
     'TBJ',
     # "Ballots cast," or all types of votes.
     'BC',
-    'Under',
-    'Over',
+    'Und',
+    'Ovr',
 ]
 
 RLA_KEYS = VOTE_TOTAL_KEYS + ['InvW', 'ValW']
@@ -231,8 +231,8 @@ def read_rla_totals():
             county_totals['BC'] += sum(row_totals)
             county_totals['InvW'] += row_totals[3]
             county_totals['ValW'] += row_totals[4]
-            county_totals['Under'] += row_totals[5]
-            county_totals['Over'] += row_totals[6]
+            county_totals['Und'] += row_totals[5]
+            county_totals['Ovr'] += row_totals[6]
 
     write_json(cache_path, data=totals)
 
@@ -303,8 +303,8 @@ def get_votes_by_vote_type(element):
     totals = {}
 
     mapping = {
-        'Overvotes': 'Over',
-        'Undervotes': 'Under',
+        'Overvotes': 'Ovr',
+        'Undervotes': 'Und',
     }
     for vote_type in element.findall('VoteType'):
         attrib = vote_type.attrib
@@ -431,7 +431,7 @@ def write_output(official_totals, rla_totals):
     pairs = [
         ('Ofc', VOTE_TOTAL_KEYS),
         ('RLA', RLA_KEYS),
-        ('Delta', VOTE_TOTAL_KEYS),
+        ('\u0394', VOTE_TOTAL_KEYS),
     ]
     for prefix, keys in pairs:
         for key in keys:
@@ -480,7 +480,7 @@ def main():
     # ballot cards found during the RLA.  (We are using the number from
     # the official / pre-RLA totals as a proxy.)
     gwinnett_totals = rla_totals['Gwinnett']
-    for key in ('BC', 'Under'):
+    for key in ('BC', 'Und'):
         gwinnett_totals[key] -= 119461
 
     assert len(rla_totals) == 159

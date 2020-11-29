@@ -5,8 +5,6 @@ Run:
 
     $ python process.py
 
-Comment out the download_county_results() line after downloading the
-first time.
 """
 
 # Copyright (c) 2020 Chris Jerdonek

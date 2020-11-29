@@ -405,12 +405,12 @@ def write_output(official_totals, rla_totals):
         official_county_totals = official_totals[name]
 
         pairs = [
-            ('Official', official_county_totals, VOTE_TOTAL_KEYS),
-            ('RLA', rla_county_totals, RLA_KEYS),
+            (official_county_totals, VOTE_TOTAL_KEYS),
+            (rla_county_totals, RLA_KEYS),
         ]
 
         row = [name]
-        for prefix, totals, keys in pairs:
+        for totals, keys in pairs:
             for key in keys:
                 row.append(totals[key])
 
@@ -429,7 +429,7 @@ def write_output(official_totals, rla_totals):
 
     headers = ['County']
     pairs = [
-        ('Official', VOTE_TOTAL_KEYS),
+        ('Ofc', VOTE_TOTAL_KEYS),
         ('RLA', RLA_KEYS),
         ('Delta', VOTE_TOTAL_KEYS),
     ]

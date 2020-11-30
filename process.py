@@ -24,19 +24,18 @@ CACHE_DIR = Path('cache')
 DOWNLOADS_DIR = Path('downloads')
 
 VOTE_TOTAL_KEYS = [
-    # "Ballots cast," or all types of votes.
-    'BC',
     # The total of Trump, Biden, and Jorgenson vote totals.
     'TBJ',
     'Und',
     'Ovr',
     'Oth',
-
+    # "Ballots cast," or all types of votes.
+    'BC',
 ]
 
 RLA_KEYS = VOTE_TOTAL_KEYS + ['InvW', 'ValW']
 
-BC_DELTA_INDEX = -5
+BC_DELTA_INDEX = -1
 
 
 _log = logging.getLogger()

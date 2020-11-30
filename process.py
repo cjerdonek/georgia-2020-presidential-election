@@ -24,17 +24,19 @@ CACHE_DIR = Path('cache')
 DOWNLOADS_DIR = Path('downloads')
 
 VOTE_TOTAL_KEYS = [
-    # The total of Trump, Biden, and Jorgenson vote totals.
-    'TBJ',
     # "Ballots cast," or all types of votes.
     'BC',
+    # The total of Trump, Biden, and Jorgenson vote totals.
+    'TBJ',
     'Und',
     'Ovr',
+    'Oth',
+
 ]
 
 RLA_KEYS = VOTE_TOTAL_KEYS + ['InvW', 'ValW']
 
-BC_DELTA_INDEX = -3
+BC_DELTA_INDEX = -5
 
 
 _log = logging.getLogger()
@@ -225,12 +227,16 @@ def read_rla_totals():
 
             row_totals = [int(part) for part in row[3:]]
 
-            county_totals['TBJ'] += sum(row_totals[:3])
             county_totals['BC'] += sum(row_totals)
+            county_totals['TBJ'] += sum(row_totals[:3])
             county_totals['InvW'] += row_totals[3]
             county_totals['ValW'] += row_totals[4]
             county_totals['Und'] += row_totals[5]
             county_totals['Ovr'] += row_totals[6]
+            _add_other(county_totals)
+            assert (
+                county_totals['InvW'] + county_totals['ValW'] == county_totals['Oth']
+            )
 
     write_json(cache_path, data=totals)
 
@@ -328,12 +334,24 @@ def get_candidate_total(contest):
     return total
 
 
+def _add_other(totals):
+    """
+    Add the "other" total to the totals dict for a county.
+
+    This corresponds to anything other than a TBJ vote, Undervote, or
+    Overvote.  In RLA terms, this corresponds to the total of valid and
+    invalid write-ins.
+    """
+    other = totals['BC'] - sum(totals[key] for key in ('TBJ', 'Und', 'Ovr'))
+    totals['Oth'] = other
+
+
 def read_detailxml_file(path):
     tree = ET.parse(path)
     root = tree.getroot()
 
     totals = {}
-    totals['BC'] = get_ballots_cast(root)
+    ballots_cast = get_ballots_cast(root)
 
     contest = root.find('Contest')
     contest_name = contest.attrib['text']
@@ -345,7 +363,9 @@ def read_detailxml_file(path):
     new_totals = get_votes_by_vote_type(contest)
     totals.update(new_totals)
 
+    totals['BC'] = ballots_cast
     totals['TBJ'] = get_candidate_total(contest)
+    _add_other(totals)
 
     return totals
 
